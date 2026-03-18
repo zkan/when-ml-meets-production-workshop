@@ -212,3 +212,6 @@ __marimo__/
 
 # Mac
 .DS_Store
+
+# Model
+*.joblib
