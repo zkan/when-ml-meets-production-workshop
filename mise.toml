@@ -23,4 +23,4 @@ run = "uv run python retrain_model.py"
 run = "uv run python compare_models.py"
 
 [tasks.export]
-run = "uv export --format requirements.txt --output-file requirements.txt"
+run = "uv export --no-hashes --format requirements.txt --output-file requirements.txt"
